@@ -19,8 +19,6 @@
   async function getNewProductValues(
     search: string
   ): Promise<{ label: string; value: number }[]> {
-    console.log(search);
-
     // Simulate a server call
     await new Promise((resolve) => setTimeout(resolve, 300));
 
